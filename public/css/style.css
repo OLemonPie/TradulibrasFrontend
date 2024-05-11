@@ -1,0 +1,109 @@
+
+* {
+  font-family:  -apple-system, system-ui,  BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+  background-color: white;
+  height: auto;
+  width: auto;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+body, html  {
+
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to top, #A4EA4F, #3A6604);
+  border-radius: 20px;
+}
+
+.login {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  background-color: white;
+  width: 280px;
+  height: 600px;
+  border-radius: 20px;
+  box-shadow: 0px, 0px, 10px  rgba(0, 0, 0, 0.553);
+}
+
+.translate {
+  text-decoration-color: #74ff73;
+  background-color: #74ff73;
+  height: 80px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0, 50, 50, 0;
+  border-radius: none;
+
+
+}
+
+i#menu {
+  color: black;
+  text-align: left;
+  padding: 5px;
+  cursor: pointer;
+}
+
+i#menu:hover {
+  background-color: #b1f065;
+}
+
+.button-1 {
+  margin-bottom: 320px;
+  margin-left: 10px;
+  border-radius: 20px;
+  image-rendering: auto;
+}
+
+.button-2 {
+  margin-left: 320px;
+  margin-bottom: 0px;
+  border-radius: 20px;
+}
+
+.button-copy {
+  cursor: pointer;
+  padding: 2px;
+  margin: 5px;
+}
+
+
+.button-mic {
+  cursor: pointer;
+  padding: 2px;
+  margin: 5px;
+}
+
+
+
+.imagem {
+  display: block;
+  background:  url(../imgs/avatar_teste2.png) no-repeat;
+  background-size: contain;
+  background-position: top;
+  height: 200px;
+}
+
+
+.input-1 {
+  padding: 10px;
+  margin-left: 15px;
+
+}
+
+.img {
+  width: 500px;
+  height: 500px;
+}
+
