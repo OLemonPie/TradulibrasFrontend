@@ -1,23 +1,24 @@
-<%- include('includes/head'); %>
-<%- include('includes/nav'); %>
 
-<link rel="stylesheet" href="public/css/style.css">
+<head>
+    
+    <link rel="stylesheet" href="public/css/style.css">
+    
+</head>
 
-
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-2"></div>
-
-        <div class="col-lg-8 my-3">
-              <h1 class="text-center">Olá <%= user.email %></h1>
-              <p class="text-center lead">Você precisa sair para criar outra conta.</p>
-
-              <%- include('includes/messages')>
-
+<body>
+    
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-2"></div>
+    
+    
+            <div class="col-lg-8 my-3">
+                  <h1 class="text-center">Olá  <%= user.email %></h1>
+                  <p class="text-center lead">Você precisa sair para criar outra conta.</p>
+            </div>
+    
+            <div class="col-lg-2"></div>
+          </div>
         </div>
-
-        <div class="col-lg-2"></div>
-      </div>
-    </div>
-
-<%- include('includes/footer'); %>
+    
+</body>
