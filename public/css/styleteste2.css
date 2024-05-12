@@ -1,0 +1,13 @@
+
+* {
+margin: auto;
+padding: 0px;
+}
+.col-lg-8-my-3 {
+    justify-content: center;
+
+    width: 50vw;
+    background-color: green; /* Cor de fundo da div */
+    color: #333; /* Cor do texto */
+    padding: 20px; /* Espaçamento interno */
+}
